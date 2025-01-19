@@ -14,13 +14,13 @@ async def start(client, message: Message):
     await codeflixbots.add_user(client, message)
 
     # Initial interactive text and sticker sequence
-    m = await message.reply_text("ᴏɴᴇᴇ-ᴄʜᴀɴ!, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ. . .")
+    m = await message.reply_text("Aʀᴀ ᴀʀᴀ ɪᴀᴍ Aʟɪsᴀ !, Hᴏᴡ ᴀʀᴇ ʏᴏᴜ \nWᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ. . .")
     await asyncio.sleep(0.4)
     await m.edit_text("🎊")
     await asyncio.sleep(0.5)
     await m.edit_text("⚡")
     await asyncio.sleep(0.5)
-    await m.edit_text("ꜱᴛᴀʀᴛɪɴɢ...")
+    await m.edit_text("Sᴛᴀʀᴛɪɴɢ Bᴀʙʏ...")
     await asyncio.sleep(0.4)
     await m.delete()
 
@@ -30,15 +30,15 @@ async def start(client, message: Message):
     # Define buttons for the start message
     buttons = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("• ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs •", callback_data='help')
+            InlineKeyboardButton("Mʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')
         ],
         [
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Codeflix_Bots'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/CodeflixSupport')
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/EmitingStars_Botz'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Weebs_Weekends')
         ],
         [
-            InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ •', callback_data='source')
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')
         ]
     ])
 
@@ -70,9 +70,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs •", callback_data='help')],
-                [InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Codeflix_Bots'), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ •', url='https://t.me/CodeflixSupport')],
-                [InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('sᴏᴜʀᴄᴇ •', callback_data='source')]
+                [InlineKeyboardButton("Mʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
+                [InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/EmitingStars_Botz'), InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Weebs_Weekends')],
+                [InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')]
             ])
         )
     elif data == "caption":
@@ -80,7 +80,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.CAPTION_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url='https://t.me/CodeflixSupport'), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url='https://t.me/Weebs_Weekends'), InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help")]
             ])
         )
 
@@ -100,7 +100,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(  # Change edit_caption to edit_text
             text=Txt.SEND_METADATA,  # Changed from caption to text
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help")]
             ])
         )
     elif data == "donate":
@@ -108,7 +108,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.DONATE_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ʙᴀᴄᴋ", callback_data="help"), InlineKeyboardButton("ᴏᴡɴᴇʀ •", url='https://t.me/sewxiy')]
+                [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"), InlineKeyboardButton("Oᴡɴᴇʀ", url='https://t.me/JeffySama')]
             ])
         )
     elif data == "file_names":
@@ -117,42 +117,42 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.FILE_NAME_TXT.format(format_template=format_template),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help")]
             ])
         )
     elif data == "thumbnail":
         await query.message.edit_caption(
             caption=Txt.THUMBNAIL_TXT,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help")]
             ])
         )
     elif data == "metadatax":
         await query.message.edit_caption(
             caption=Txt.SEND_METADATA,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="help")]
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help")]
             ])
         )
     elif data == "source":
         await query.message.edit_caption(
             caption=Txt.SOURCE_TXT,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʙᴀᴄᴋ •", callback_data="home")]
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("Bᴀᴄᴋ", callback_data="home")]
             ])
         )
     elif data == "premiumx":
         await query.message.edit_caption(
             caption=Txt.PREMIUM_TXT,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ʙᴀᴄᴋ", callback_data="help"), InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url='https://t.me/sewxiy')]
+                [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"), InlineKeyboardButton("Bᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url='https://t.me/JeffySama')]
             ])
         )
     elif data == "plans":
         await query.message.edit_caption(
             caption=Txt.PREPLANS_TXT,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url='https://t.me/sewxiy')]
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("Bᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url='https://t.me/JeffySama')]
             ])
         )
     elif data == "about":
@@ -160,9 +160,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url='https://t.me/CodeflixSupport'), InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs •", callback_data="help")],
-                [InlineKeyboardButton("• ᴅᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/cosmic_freak'), InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ •", url='https://t.me/otakuflix_network')],
-                [InlineKeyboardButton("• ʙᴀᴄᴋ •", callback_data="home")]
+                [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url='https://t.me/Weebs_Weekends'), InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="help")],
+                [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/JeffySama'), InlineKeyboardButton("Nᴇᴛᴡᴏʀᴋ", url='https://t.me/Eminence_Society')],
+                [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="home")]
             ])
         )
     elif data == "close":
@@ -178,7 +178,7 @@ async def cb_handler(client, query: CallbackQuery):
 @Client.on_message(filters.command("donate"))
 async def donation(client, message):
     buttons = InlineKeyboardMarkup([
-        [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url='https://t.me/sewxiy')]
+        [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="help"), InlineKeyboardButton(text="Oᴡɴᴇʀ", url='https://t.me/JeffySama')]
     ])
     yt = await message.reply_photo(photo='https://graph.org/file/1919fe077848bd0783d4c.jpg', caption=Txt.DONATE_TXT, reply_markup=buttons)
     await asyncio.sleep(300)
@@ -189,7 +189,7 @@ async def donation(client, message):
 @Client.on_message(filters.command("premium"))
 async def getpremium(bot, message):
     buttons = InlineKeyboardMarkup([
-        [InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/sewxiy"), InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")]
+        [InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/JeffySama"), InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")]
     ])
     yt = await message.reply_photo(photo='https://graph.org/file/feebef43bbdf76e796b1b.jpg', caption=Txt.PREMIUM_TXT, reply_markup=buttons)
     await asyncio.sleep(300)
@@ -200,7 +200,7 @@ async def getpremium(bot, message):
 @Client.on_message(filters.command("plan"))
 async def premium(bot, message):
     buttons = InlineKeyboardMarkup([
-        [InlineKeyboardButton("sᴇɴᴅ ss", url="https://t.me/sewxiy"), InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")]
+        [InlineKeyboardButton("Sᴇɴᴅ ss", url="https://t.me/JeffySama"), InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")]
     ])
     yt = await message.reply_photo(photo='https://graph.org/file/8b50e21db819f296661b7.jpg', caption=Txt.PREPLANS_TXT, reply_markup=buttons)
     await asyncio.sleep(300)
@@ -237,9 +237,9 @@ async def help_command(client, message):
         text=Txt.HELP_TXT.format(mention=mention),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("• ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ •", callback_data='file_names')],
-            [InlineKeyboardButton('• ᴛʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail'), InlineKeyboardButton('ᴄᴀᴘᴛɪᴏɴ •', callback_data='caption')],
-            [InlineKeyboardButton('• ᴍᴇᴛᴀᴅᴀᴛᴀ', callback_data='meta'), InlineKeyboardButton('ᴅᴏɴᴀᴛᴇ •', callback_data='donate')],
-            [InlineKeyboardButton('• ʜᴏᴍᴇ', callback_data='home')]
+            [InlineKeyboardButton("Aᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ •", callback_data='file_names')],
+            [InlineKeyboardButton('Tʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail'), InlineKeyboardButton('Cᴀᴘᴛɪᴏɴ', callback_data='caption')],
+            [InlineKeyboardButton('Mᴇᴛᴀᴅᴀᴛᴀ', callback_data='meta'), InlineKeyboardButton('Dᴏɴᴀᴛᴇ', callback_data='donate')],
+            [InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home')]
         ])
     )
