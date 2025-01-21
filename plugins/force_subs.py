@@ -31,7 +31,7 @@ async def forces_sub(client, message):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"• ᴊᴏɪɴ {channel.capitalize()} •", url=f"https://t.me/{channel}"
+                text=f"{channel.capitalize()}", url=f"https://t.me/{channel}"
             )
         ]
         for channel in not_joined_channels
@@ -77,7 +77,7 @@ async def check_subscription(client, callback_query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text=f"• ᴊᴏɪɴ {channel.capitalize()} •",
+                    text=f"{channel.capitalize()}",
                     url=f"https://t.me/{channel}",
                 )
             ]
