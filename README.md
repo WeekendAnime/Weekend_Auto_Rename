@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/386500b2d4b21d5d1f772.jpg">
+  <img src="https://envs.sh/N4R.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ](https://t.me/)**_
@@ -42,7 +42,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴀᴜᴛᴏ ʀᴇ�
 - [x] Set mediatype to upload filetype
 - [x] Developer Service 24x7. 
 
-<b>ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs, ᴊᴏɪɴ ᴏᴜʀ  <a href='https://t.me/codeflix_bots'>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a>.</b>
+<b>ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs, ᴊᴏɪɴ ᴏᴜʀ  <a href='https://t.me/Anime_Weekends'>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a>.</b>
 </details>
 
 <details><summary><b> - ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs :</summary>
@@ -99,7 +99,7 @@ status - Check bot status [FOR ADMINS USE ONLY].
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[sᴜʙᴀʀᴜ](https://github.com/sewxiy)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Codeflix-Bots/AutoRenameBot) </b>
+- <b>[sᴜʙᴀʀᴜ](https://github.com/weekends-anime)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Weekend_Auto_Rename) </b>
  
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Codeflix-Bots/autorenamebot/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
